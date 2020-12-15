@@ -1,0 +1,76 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 4,
+        "name": "Fetch the response of git api",
+        "description": "",
+        "id": "testing-get-call-for-a-git-api;fetch-the-response-of-git-api",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 9615661028,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user launches the api using restassuredgit",
+            "match": {
+              "location": "GitGetApi.user_launches_the_api_using_restassuredgit()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 100821,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "conditionAgit",
+            "match": {
+              "location": "GitGetApi.conditionagit()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 74861,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "resultAgit",
+            "match": {
+              "location": "GitGetApi.resultagit()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 80295,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "resultBgit",
+            "match": {
+              "location": "GitGetApi.resultbgit()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Testkmp"
+          }
+        ]
+      }
+    ],
+    "name": "Testing get call for a git api",
+    "description": "",
+    "id": "testing-get-call-for-a-git-api",
+    "keyword": "Feature",
+    "uri": "src/test/java/features/gitgetapi.feature",
+    "tags": []
+  }
+]

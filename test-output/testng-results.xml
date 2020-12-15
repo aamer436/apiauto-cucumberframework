@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="10285" started-at="2020-12-15T13:29:02Z" finished-at="2020-12-15T13:29:12Z">
+    <groups>
+      <group name="cucumber">
+        <method signature="TestRunner.runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:runner.TestRunner@79ca92b9]" name="runScenario" class="runner.TestRunner"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test name="Default test" duration-ms="10285" started-at="2020-12-15T13:29:02Z" finished-at="2020-12-15T13:29:12Z">
+      <class name="runner.TestRunner">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:runner.TestRunner@79ca92b9]" name="setUpClass" is-config="true" duration-ms="232" started-at="2020-12-15T13:29:02Z" finished-at="2020-12-15T13:29:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:runner.TestRunner@79ca92b9]" name="runScenario" duration-ms="9849" started-at="2020-12-15T13:29:02Z" description="Runs Cucumber Feature" data-provider="scenarios" finished-at="2020-12-15T13:29:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Fetch the response of git api"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Testing get call for a git api"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:runner.TestRunner@79ca92b9]" name="tearDownClass" is-config="true" duration-ms="30" started-at="2020-12-15T13:29:12Z" finished-at="2020-12-15T13:29:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- runner.TestRunner -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
